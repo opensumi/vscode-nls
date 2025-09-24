@@ -1,19 +1,36 @@
 {
-  "name": "vscode-nls",
+  "name": "@codefuse/vscode-nls",
   "version": "0.0.1",
-  "description": "vscode nls 文件",
+  "description": "vscode nls 文件 - CodeFuse 团队维护的 VSCode 国际化支持包",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "npm test"
   },
+  "keywords": [
+    "vscode",
+    "nls",
+    "国际化",
+    "i18n",
+    "locale",
+    "codefuse"
+  ],
+  "files": [
+    "src/",
+    "index.js",
+    "README.md"
+  ],
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/opensumi/vscode-nls.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "CodeFuse Team",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/opensumi/vscode-nls/issues"
   },
-  "homepage": "https://github.com/opensumi/vscode-nls#readme"
+  "homepage": "https://github.com/opensumi/vscode-nls#readme",
+  "publishConfig": {
+    "access": "public"
+  }
 }
