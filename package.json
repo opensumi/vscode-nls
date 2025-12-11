@@ -1,6 +1,6 @@
 {
-  "name": "@codefuse/vscode-nls",
-  "version": "0.0.8",
+  "name": "@alipay/codefuse-nls",
+  "version": "0.0.1",
   "description": "vscode nls 文件 - CodeFuse 团队维护的 VSCode 国际化支持包",
   "main": "index.js",
   "scripts": {
@@ -31,6 +31,6 @@
   },
   "homepage": "https://github.com/opensumi/vscode-nls#readme",
   "publishConfig": {
-    "access": "public"
+    "registry": "https://registry.antgroup-inc.cn"
   }
 }
