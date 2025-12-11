@@ -1,6 +1,6 @@
 {
   "name": "@codefuse/vscode-nls",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "vscode nls 文件 - CodeFuse 团队维护的 VSCode 国际化支持包",
   "main": "index.js",
   "scripts": {
